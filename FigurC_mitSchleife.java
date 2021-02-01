@@ -8,7 +8,7 @@ import processing.core.PApplet;
  * @author Simon Gebert 
  * @version Feb2020
  */
-public class FigurC_mitSchleife extends PApplet
+public class FigurC_mitSchleife extends FigurC_mitSchleife
 {       
     /**
      * settings() Methode 
@@ -21,8 +21,9 @@ public class FigurC_mitSchleife extends PApplet
     }        
 
     public void zeichneBildC() {
-        // ***** hier kommen deine Anweisungen hin ************
-   
+        for(int i=0; i<10; i++) {
+        rect(25+50i,25,50,50),
+    }
         // ***** Ende der eigenen Anweisungen **********
     }
 
